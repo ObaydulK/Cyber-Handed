@@ -6,6 +6,9 @@ import Banner from "../../../Sections/Banner"
 import AllCourses from "../../../Sections/AllCourses"
 import JoinSeminars from "../../../Sections/JoinSeminars" 
 import ProvideingProject from "../../../Sections/ProvideingProject"
+import WorldOrganization from "../../../Sections/WorldOrganization"
+import StudentCount from "../../../Sections/StudentCount"
+import CompanyComponent from "../../../Sections/CompanyComponent"
  
 
 
@@ -20,6 +23,9 @@ const Navbers = () => {
       <AllCourses />
       <JoinSeminars /> 
       <ProvideingProject/>
+      <WorldOrganization/>
+      <StudentCount/>
+      <CompanyComponent/>
     </div>
   );
 }

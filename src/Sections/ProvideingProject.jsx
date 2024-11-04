@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 const cardClasses = 'flex flex-col md:flex-row p-6 bg-card rounded-lg shadow-lg'
 const imageClasses = 'w-full h-auto rounded-lg'
 const titleClasses = 'text-2xl font-bold text-primary'
