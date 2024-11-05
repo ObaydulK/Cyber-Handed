@@ -7,8 +7,8 @@ const titleClass = 'text-2xl font-bold text-primary'
 const subtitleClass = 'text-xl font-semibold text-secondary'
 const spanClass = 'text-red-500'
 const textClass = 'text-muted-foreground'
-const buttonClass = 'bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2 rounded-lg mr-2'
-const buttonPrimaryClass = 'bg-primary text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded-lg'
+const buttonClass = 'bg-[#ff1e1e] text-secondary-foreground hover:bg-secondary/80 px-4 py-2 rounded-lg mr-2'
+const buttonPrimaryClass = 'bg-[#ff1e1e] text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded-lg'
 const smallTextClass = 'text-sm text-muted-foreground'
 
 export default function Banner() {

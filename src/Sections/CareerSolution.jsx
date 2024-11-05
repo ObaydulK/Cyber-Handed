@@ -29,7 +29,7 @@ const CareerSolution = () => {
                 />
             </div>
             <div className="text-center mt-8">
-                <button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2 rounded-lg">Our Facility</button>
+                <button className="bg-gradient-to-r from-primary to-accent text-white dark:text-black py-3 px-6 rounded-lg shadow-md dark:shadow-lg hover:shadow-lg dark:hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary dark:focus:ring-accent">Our Facility</button>
             </div>
         </div>
     )

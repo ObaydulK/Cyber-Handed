@@ -1,8 +1,8 @@
 
 // Shared Tailwind CSS classes
 const cardClasses = 'bg-card rounded-lg shadow-lg overflow-hidden'
-const buttonClasses = 'bg-secondary text-secondary-foreground hover:bg-secondary/80 p-2 rounded-lg'
-
+const buttonClasses = 'bg-gradient-to-r from-primary to-accent text-white dark:text-black py-3 px-6 rounded-lg shadow-md dark:shadow-lg hover:shadow-lg dark:hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary dark:focus:ring-accent'
+ 
 const SuccessStory = () => {
     const stories = [
         {

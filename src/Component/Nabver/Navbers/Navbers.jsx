@@ -10,12 +10,12 @@ import WorldOrganization from "../../../Sections/WorldOrganization"
 import StudentCount from "../../../Sections/StudentCount"
 import CompanyComponent from "../../../Sections/CompanyComponent"
  
-
+ 
 
 const Navbers = () => {
   return (
     <div>  
-      <Banner />
+      <Banner  />
       <Course />
       <Types />
       <SuccessStory />

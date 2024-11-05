@@ -4,8 +4,8 @@ const titleClasses = 'text-xl font-bold text-primary'
 const subtitleClasses = 'text-3xl font-extrabold text-primary'
 const textClasses = 'mt-4 text-muted-foreground'
 const buttonClasses = 'px-4 py-2 rounded-lg'
-const primaryButtonClasses = 'bg-primary text-primary-foreground hover:bg-primary/80'
-const secondaryButtonClasses = 'bg-secondary text-secondary-foreground hover:bg-secondary/80'
+const primaryButtonClasses = 'bg-[#ff1e1e] text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded-lg'
+const secondaryButtonClasses = 'bg-[#ff1e1e] text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded-lg'
 
 const WorldOrganization = () => {
     return (

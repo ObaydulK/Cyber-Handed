@@ -1,7 +1,7 @@
  
 const seminarCardClasses = 'flex flex-col md:flex-row bg-card p-6 rounded-lg shadow-lg'
 const dateClasses = 'font-semibold'
-const joinButtonClasses = 'bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2 rounded'
+const joinButtonClasses = 'mt-4 outline outline-2 hover:text-red hover:bg-[#ff7e31] px-4 py-2  rounded bg-rounded'
 const textClasses = 'text-muted-foreground'
 
 const JoinSeminars = () => {
@@ -23,17 +23,8 @@ const JoinSeminars = () => {
                     <span className={textClasses}>Video Editing</span>
                     <span className={textClasses}>Online, Time: 08:00 PM</span>
                 </div>
-                <div>
-                    <div className="flex justify-between items-center mb-2">
-                        <span className={dateClasses}>04 Nov, 24</span>
-                        <a href="#" className={joinButtonClasses}>
-                            Join
-                        </a>
-                    </div>
-                    <span className={textClasses}>Interior Design</span>
-                    <span className={textClasses}>Online, Time: 08:00 PM</span>
-                </div>
-                <a href="#" className="mt-4 inline-block text-primary underline">
+              
+                <a href="#" className="bg-[#ff1e1e] text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded-lg">
                     Free Seminar Schedule
                 </a>
             </div>

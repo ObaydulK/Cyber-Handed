@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "./Layout/Home"; 
 import Notfound from "./Notfound";
 import Navbers from "./Component/Nabver/Navbers/Navbers";
+import ProvideingProject from "./Sections/ProvideingProject";
  
 
 
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
                 path:'/navber',
                 element:<Navbers/>
             },
+            {
+                path:"/provideproject",
+                element:<ProvideingProject/>
+            }
             
 
         ]

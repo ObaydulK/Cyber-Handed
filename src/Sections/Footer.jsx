@@ -1,7 +1,7 @@
 
 const buttonClass = 'px-4 py-2 rounded-lg';
-const primaryButtonClass = 'bg-primary text-primary-foreground hover:bg-primary/80';
-const secondaryButtonClass = 'bg-secondary text-secondary-foreground hover:bg-secondary/80';
+const primaryButtonClass = 'mt-4 outline outline-2 hover:text-red hover:bg-[#ff7e31] px-4 py-2  rounded bg-rounded';
+const secondaryButtonClass = 'mt-4 outline outline-2 hover:text-red hover:bg-[#ff7e31] px-4 py-2  rounded bg-rounded';
 
 const ContactInfo = () => (
     <div>

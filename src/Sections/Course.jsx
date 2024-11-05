@@ -26,7 +26,7 @@ const Course = () => {
     ];
 
     const cardClasses = "bg-card rounded-lg shadow-lg overflow-hidden";
-    const buttonClasses = "mt-4 bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2 rounded";
+    const buttonClasses = "mt-4 outline outline-2 hover:text-red hover:bg-[#ff7e31] px-4 py-2  rounded bg-rounded";
 
     return (
         <div className='bg-slate-300 shadow-lg rounded-lg'>
@@ -49,7 +49,7 @@ const Course = () => {
                                 <p className="text-muted-foreground">{course.students}</p>
                                 <div>
                                     <p className="text-muted-foreground">{course.fee}</p>
-                                    <button className={buttonClasses}>
+                                    <button className=  {buttonClasses}>
                                         Click for discount
                                     </button>
                                 </div>

@@ -1,7 +1,7 @@
 
 // Shared Tailwind CSS classes
 const cardClasses = 'bg-card rounded-lg shadow-lg p-4';
-const buttonClasses = 'bg-secondary text-secondary-foreground hover:bg-secondary/80 mt-2 p-2 rounded';
+const buttonClasses = 'mt-4 outline outline-2 hover:text-red hover:bg-[#ff7e31] px-4 py-2  rounded bg-rounded';
 
 const CourseCard = ({ title, imageText, altText, reviewText, feeText }) => {
     return (
@@ -56,7 +56,7 @@ const AllCourses = () => {
             ))}
 
             <div className="text-center mt-8">
-                <button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2 rounded-lg">All Courses </button>
+                <button className="bg-[#ff1e1e] text-primary-foreground hover:bg-primary/80 px-4 py-2 rounded-lg">All Courses </button>
             </div>
 
         </div>
