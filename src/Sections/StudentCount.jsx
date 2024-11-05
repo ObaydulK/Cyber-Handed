@@ -12,7 +12,7 @@ const StudentCount = () => {
         { number: '700+', description: 'Companies' },
     ]
 
-    const StatCard = ({ number, description }) => {
+    const StudentCard = ({ number, description }) => {
         return (
             <div className={cardClasses}>
                 <h2 className={titleClasses}>{number}</h2>
@@ -22,9 +22,9 @@ const StudentCount = () => {
     }
 
     return (
-        <div className="flex flex-wrap justify-center space-x-4">
-            {data.map((stat, index) => (
-                <StatCard key={index} number={stat.number} description={stat.description} />
+        <div className="flex flex-wrap justify-center space-x-4 py-10">
+            {data.map((student, index) => (
+                <StudentCard key={index} number={student.number} description={student.description} />
             ))}
         </div>
     );

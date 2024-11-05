@@ -24,7 +24,7 @@ const Navbers = () => {
       <JoinSeminars /> 
       <ProvideingProject/>
       <WorldOrganization/>
-      <StudentCount/>
+      <StudentCount />
       <CompanyComponent/>
     </div>
   );
