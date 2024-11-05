@@ -13,27 +13,32 @@ const smallTextClass = 'text-sm text-muted-foreground'
 
 export default function Banner() {
 
-
     return (
-        <div className={cardClass}>
-            <div className="flex-1 mb-4 md:mb-0">
-                <h1 className={titleClass}>Unleash Your Potential</h1>
-                <h2 className={subtitleClass}>
-                    Become an IT Pro & Rule the <span className={spanClass}>Digital World</span>
-                </h2>
-                <p className={textClass + ' mt-2'}>
-                    With a vision to turn manpower into assets, Creative IT Institute is ready to enhance your learning experience with skilled mentors and updated curriculum. Pick your desired course from more
-                    than 30 trendy options.
-                </p>
-                <div className="mt-4">
-                    <button className={buttonClass}>Browse Course</button>
-                    <button className={buttonPrimaryClass}>Join the Seminar</button>
+        <div>
+            <div className={cardClass}>
+                <div className="flex-1 mb-4 md:mb-0">
+                    <h1 className={titleClass}>Unleash Your Potential</h1>
+                    <h2 className={subtitleClass}>
+                        Become an IT Pro & Rule the <span className={spanClass}>Digital World</span>
+                    </h2>
+                    <p className={textClass + ' mt-2'}>
+                        With a vision to turn manpower into assets, Creative IT Institute is ready to enhance your learning experience with skilled mentors and updated curriculum. Pick your desired course from more
+                        than 30 trendy options.
+                    </p>
+                    <div className="mt-4">
+                        <button className={buttonClass}>Browse Course</button>
+                        <button className={buttonPrimaryClass}>Join the Seminar</button>
+                    </div>
+                    <p className={smallTextClass + ' mt-4'}>One of the best ISO certified IT Training Institutes in Bangladesh</p>
                 </div>
-                <p className={smallTextClass + ' mt-4'}>One of the best ISO certified IT Training Institutes in Bangladesh</p>
+                <div className="flex-1 flex justify-center items-center">
+                    <img src="https://openui.fly.dev/openui/300x200.svg?text=15+Years+of+Innovation" alt="15 Years of Innovation" className="rounded-lg shadow-lg" />
+                </div>
             </div>
-            <div className="flex-1 flex justify-center items-center">
-                <img src="https://openui.fly.dev/openui/300x200.svg?text=15+Years+of+Innovation" alt="15 Years of Innovation" className="rounded-lg shadow-lg" />
-            </div>
+
+            < Sliders />
+
         </div>
     )
 }
+
